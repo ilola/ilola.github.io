@@ -6,16 +6,16 @@
 	
 	>
 <channel>
-	<title>دیدگاه‌ها برای پایتون ۳</title>
-	<atom:link href="http://192.168.1.6/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://192.168.1.6</link>
+	<title>دیدگاه‌ها برای: سلام دنیا!</title>
+	<atom:link href="http://192.168.1.6/1/feed/" rel="self" type="application/rss+xml" />
+	<link>http://192.168.1.6/1/</link>
 	<description>یک سایت دیگر با وردپرس فارسی</description>
 	<lastBuildDate>Sat, 06 Oct 2018 23:07:37 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.8</generator>
 	<item>
-		<title>دیدگاه‌ها برای سلام دنیا! با یک نویسنده‌ی دیدگاه در وردپرس</title>
+		<title>توسط: یک نویسنده‌ی دیدگاه در وردپرس</title>
 		<link>http://192.168.1.6/1/#comment-1</link>
 		<dc:creator><![CDATA[یک نویسنده‌ی دیدگاه در وردپرس]]></dc:creator>
 		<pubDate>Sat, 06 Oct 2018 23:07:37 +0000</pubDate>

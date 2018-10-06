@@ -73,16 +73,16 @@
 			</form>		</div>
 		<div class="404-recent-articles mh-widget-col-2"><div class="mh-widget"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">نوشته‌های تازه</span></h4>			<ul class="mh-custom-posts-widget clearfix">					<li class="post-1 mh-custom-posts-item mh-custom-posts-small clearfix">
 						<figure class="mh-custom-posts-thumb">
-							<a href="2018/10/07/%d8%b3%d9%84%d8%a7%d9%85-%d8%af%d9%86%db%8c%d8%a7/" title="سلام دنیا!"><img class="mh-image-placeholder" src="contents/ui/theme/images/placeholder-small.png" alt="بدون تصویر" />							</a>
+							<a href="1/" title="سلام دنیا!"><img class="mh-image-placeholder" src="contents/ui/theme/images/placeholder-small.png" alt="بدون تصویر" />							</a>
 						</figure>
 						<div class="mh-custom-posts-header">
 							<p class="mh-custom-posts-small-title">
-								<a href="2018/10/07/%d8%b3%d9%84%d8%a7%d9%85-%d8%af%d9%86%db%8c%d8%a7/" title="سلام دنیا!">
+								<a href="1/" title="سلام دنیا!">
 									سلام دنیا!								</a>
 							</p>
 							<div class="mh-meta mh-custom-posts-meta">
 								<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>اکتبر 7, 2018</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="2018/10/07/%d8%b3%d9%84%d8%a7%d9%85-%d8%af%d9%86%db%8c%d8%a7/#mh-comments">1</a></span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="1/#mh-comments">1</a></span>
 							</div>
 						</div>
 					</li>        	</ul></div>		</div>
@@ -95,14 +95,14 @@
 				<input type="submit" class="search-submit" value="جستجو" />
 			</form></div>		<div id="recent-posts-2" class="mh-widget widget_recent_entries">		<h4 class="mh-widget-title"><span class="mh-widget-title-inner">نوشته‌های تازه</span></h4>		<ul>
 											<li>
-					<a href="2018/10/07/%d8%b3%d9%84%d8%a7%d9%85-%d8%af%d9%86%db%8c%d8%a7/">سلام دنیا!</a>
+					<a href="1/">سلام دنیا!</a>
 									</li>
 					</ul>
-		</div><div id="recent-comments-2" class="mh-widget widget_recent_comments"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">آخرین دیدگاه‌ها</span></h4><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow' class='url'>یک نویسنده‌ی دیدگاه در وردپرس</a></span> در <a href="2018/10/07/%d8%b3%d9%84%d8%a7%d9%85-%d8%af%d9%86%db%8c%d8%a7/#comment-1">سلام دنیا!</a></li></ul></div><div id="archives-2" class="mh-widget widget_archive"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">بایگانی</span></h4>		<ul>
-			<li><a href='2018/10/'>اکتبر 2018</a></li>
+		</div><div id="recent-comments-2" class="mh-widget widget_recent_comments"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">آخرین دیدگاه‌ها</span></h4><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow' class='url'>یک نویسنده‌ی دیدگاه در وردپرس</a></span> در <a href="1/#comment-1">سلام دنیا!</a></li></ul></div><div id="archives-2" class="mh-widget widget_archive"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">بایگانی</span></h4>		<ul>
+			<li><a href='date/2018/10/'>اکتبر 2018</a></li>
 		</ul>
 		</div><div id="categories-2" class="mh-widget widget_categories"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">دسته‌ها</span></h4>		<ul>
-	<li class="cat-item cat-item-1"><a href="category/%d8%af%d8%b3%d8%aa%d9%87%e2%80%8c%d8%a8%d9%86%d8%af%db%8c-%d9%86%d8%b4%d8%af%d9%87/" >دسته‌بندی نشده</a>
+	<li class="cat-item cat-item-1"><a href="category/undefined/" >Undefined</a>
 </li>
 		</ul>
 </div><div id="meta-2" class="mh-widget widget_meta"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">اطلاعات</span></h4>			<ul>
