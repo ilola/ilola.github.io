@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="no-js" dir="rtl" lang="fa-IR">
+<head>
+<base href="https://www.python3.ir/" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>پایتون برای همه | 15 | عملگر پیمانه | عملیات بر روی رشته</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+
+
+
+<link rel='stylesheet' id='crayon-css'  href='contents/lib/crayon-syntax-highlighter/css/min/crayon.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='contents/lib/crayon-syntax-highlighter/themes/classic/classic.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='contents/lib/crayon-syntax-highlighter/fonts/monaco.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-magazine-lite-css'  href='contents/ui/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-font-awesome-css'  href='contents/ui/theme/includes/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='contents/lib/crayon-syntax-highlighter/js/min/crayon.min.js'></script>
+<script type='text/javascript' src='contents/ui/theme/js/scripts.js'></script>
+
+
+
+
+<link rel="stylesheet" href="contents/ui/theme/rtl.css" type="text/css" media="screen" />
+
+
+
+
+<!--[if lt IE 9]>
+<script src="contents/ui/theme/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="icon" href="contents/data/2018/10/cropped-python3-32x32.png" sizes="32x32" />
+<link rel="icon" href="contents/data/2018/10/cropped-python3-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="contents/data/2018/10/cropped-python3-180x180.png" />
+<meta name="msapplication-TileImage" content="contents/data/2018/10/cropped-python3-270x270.png" />
+</head>
+<body id="mh-mobile" class="rtl post-template-default single single-post postid-1459 single-format-standard wp-custom-logo mh-right-sb" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<div class="mh-container mh-container-outer">
+<div class="mh-header-mobile-nav clearfix"></div>
+<header class="mh-header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+	<div class="mh-container mh-container-inner mh-row clearfix">
+		<div class="mh-custom-header clearfix">
+<div class="mh-site-identity">
+<div class="mh-site-logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+<a href="" class="custom-logo-link" rel="home" itemprop="url"><img width="1890" height="630" src="contents/data/2018/10/cropped-Python-logo.png" class="custom-logo" alt="" itemprop="logo" srcset="contents/data/2018/10/cropped-Python-logo.png 1890w, contents/data/2018/10/cropped-Python-logo-300x100.png 300w, contents/data/2018/10/cropped-Python-logo-768x256.png 768w, contents/data/2018/10/cropped-Python-logo-1024x341.png 1024w" sizes="(max-width: 1890px) 100vw, 1890px" /></a><div class="mh-header-text">
+<a class="mh-header-text-link" href="" title="" rel="home">
+</a>
+</div>
+</div>
+</div>
+</div>
+	</div>
+	<div class="mh-main-nav-wrap">
+		<nav class="mh-navigation mh-main-nav mh-container mh-container-inner clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+			<div class="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-container"><ul id="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-27"><a href="">خانه</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="download-python-3-farsi-book/">دانلود کتاب پایتون ۳</a></li>
+</ul></div>		</nav>
+	</div>
+</header><div class="mh-wrapper clearfix">
+	<div id="main-content" class="mh-content" role="main" itemprop="mainContentOfPage"><article id="post-1459" class="post-1459 post type-post status-publish format-standard has-post-thumbnail hentry category-python3-programming tag-6 tag-7 tag-15">
+	<header class="entry-header clearfix"><h1 class="entry-title">پایتون برای همه | 15 | عملگر پیمانه | عملیات بر روی رشته</h1><p class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="date/2017/07/">جولای 10, 2017</a></span>
+<span class="entry-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="author/eman/">Eman</a></span>
+<span class="entry-meta-categories"><i class="fa fa-folder-open-o"></i><a href="category/python3-programming/" rel="category tag">برنامه‌نویسی</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-scroll" href="1459/#mh-comments">0</a></span>
+</p>
+	</header>
+		<div class="entry-content clearfix">
+<figure class="entry-thumbnail">
+<img src="contents/data/2017/10/3-678x381.jpg" alt="پایتون ۳" title="Python-3" />
+</figure>
+
+<p>عملگر پیمانه، بر روی اعداد صحیح اعمال شده، و باقیمانده عملوند اول بر دوم را به دست می‌آوررد. گیج‌کننده بود؟ به زبان ساده‌تر، فرض کنید که دو عدد ۵ و ۲ را در اختیار دارید؛ حاصل تقسیم پنج بر دو، می‌شود ۲ به عنوان خارج قسمت، و ۱ به عنوان باقیمانده. عملگر پیمانه در برنامه‌نویسی، وظیفه‌ی نشان دادن باقیمانده را به عهده می‌گیرد.<br />
+از آنجا که اگر یکی از عملوندها عدد اعشاری باشد، خارج قسمت نیز اعشاری خواهد شد، و عملا باقیمانده نخواهیم داشت، این عملگر تنها بر روی اعداد صحیح قابل اجراست.<br />
+نشانه‌ای که برای عملگر پیمانه در پایتون و البته بسیاری دیگر از زبان‌های برنامه‌نویسی استفاده می‌شود، علامت درصد ‎%‎ است. به مثال زیر توجه کنید:</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bb9c87d7d8ad521058753" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; quotient = 7 // 3
+&gt;&gt;&gt; print(quotient)
+2
+&gt;&gt;&gt; remainder = 7 % 3
+&gt;&gt;&gt; print(remainder)
+1</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bb9c87d7d8ad521058753-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8ad521058753-2">2</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8ad521058753-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8ad521058753-4">4</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8ad521058753-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8ad521058753-6">6</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bb9c87d7d8ad521058753-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">quotient</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-cn">7</span><span class="crayon-h"> </span><span class="crayon-o">/</span><span class="crayon-o">/</span><span class="crayon-h"> </span><span class="crayon-cn">3</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8ad521058753-2"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">print</span><span class="crayon-sy">(</span><span class="crayon-v">quotient</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8ad521058753-3"><span class="crayon-cn">2</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8ad521058753-4"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">remainder</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-cn">7</span><span class="crayon-h"> </span><span class="crayon-o">%</span><span class="crayon-h"> </span><span class="crayon-cn">3</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8ad521058753-5"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">print</span><span class="crayon-sy">(</span><span class="crayon-v">remainder</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8ad521058753-6"><span class="crayon-cn">1</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0006 seconds] -->
+<p> </p>
+<p>خب هفت تقسیم بر سه، دو می‌شود به علاوه‌ی یک به عنوان باقیمانده که در مثال بالا دیدید. عملگر پیمانه از آنچه که در آینه به نظر می‌رسد به شما نزدیک‌تر است و در آینده خواهید فهمید که این عملگر چقدر به کارتان خواهد آمد. مثلا فرض کنید می‌خواهید ببینید که X بر Y بخش‌پذیر است یا خیر. اینجا با استفاده از عملگر پیمانه و بررسی خروجی آن به راحتی می‌توانید نتیجه را بیرون بکشید.<br />
+نمونه‌ی دیگر استفاده از عملگر پیمانه، بیرون کشیدن عدد یا عددهای سمت راست از یک مقدار است. چگونه؟ مثلا ما عدد 458‎ را داریم که یک رقم سمت راست آن 8 است. حالا با استفاده از عملگر پیمانه آن را اینگونه استخراج می‌کنیم:</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bb9c87d7d8ca185815455" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; 458 % 10
+8</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bb9c87d7d8ca185815455-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8ca185815455-2">2</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bb9c87d7d8ca185815455-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-cn">458</span><span class="crayon-h"> </span><span class="crayon-o">%</span><span class="crayon-h"> </span><span class="crayon-cn">10</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8ca185815455-2"><span class="crayon-cn">8</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0003 seconds] -->
+<p> </p>
+<p>حالا فرض کنید که دو رقم سمت راست را نیاز دارید. به مثال زیر دقت کنید:</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bb9c87d7d8e0526850272" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; 458 % 100
+58</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bb9c87d7d8e0526850272-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8e0526850272-2">2</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bb9c87d7d8e0526850272-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-cn">458</span><span class="crayon-h"> </span><span class="crayon-o">%</span><span class="crayon-h"> </span><span class="crayon-cn">100</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8e0526850272-2"><span class="crayon-cn">58</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0002 seconds] -->
+<p> </p>
+<p>عملیات بر روی رشته<br />
+عملگر ‎+‎ برای استرینگ‌ها یا رشته‌ها هم کارایی دارد ولی این کارایی متفاوت با نوع ریاضی آن است. ‎+‎ رشته‌ها را بهم پیوند می‌دهد یا به عبارتی زنجیره‌بندی می‌کند. بگذارید با مثالی به شما نشان دهم زمانی که از ‎+‎ برای زنجیره‌بندی استفاده می‌کنید چه اتفاقی می‌افتد. </p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bb9c87d7d8f5369243190" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; first = 10
+&gt;&gt;&gt; second = 15
+&gt;&gt;&gt; print first + second
+25
+&gt;&gt;&gt; type(first)
+&lt;type 'int'&gt;
+&gt;&gt;&gt; type(second)
+&lt;type 'int'&gt;
+&gt;&gt;&gt; first = '10'
+&gt;&gt;&gt; second = '15'
+&gt;&gt;&gt; print first + second
+1015
+&gt;&gt;&gt; type(first)
+&lt;type 'str'&gt;
+&gt;&gt;&gt; type(second)
+&lt;type 'str'&gt;
+&gt;&gt;&gt;</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8f5369243190-2">2</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8f5369243190-4">4</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8f5369243190-6">6</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8f5369243190-8">8</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8f5369243190-10">10</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8f5369243190-12">12</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8f5369243190-14">14</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bb9c87d7d8f5369243190-16">16</div><div class="crayon-num" data-line="crayon-5bb9c87d7d8f5369243190-17">17</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">first</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-cn">10</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8f5369243190-2"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">second</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-cn">15</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">print</span><span class="crayon-h"> </span><span class="crayon-v">first</span><span class="crayon-h"> </span><span class="crayon-o">+</span><span class="crayon-h"> </span><span class="crayon-i">second</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8f5369243190-4"><span class="crayon-cn">25</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-5"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">type</span><span class="crayon-sy">(</span><span class="crayon-v">first</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8f5369243190-6"><span class="crayon-o">&lt;</span><span class="crayon-k ">type</span><span class="crayon-h"> </span><span class="crayon-s">'int'</span><span class="crayon-o">&gt;</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-7"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">type</span><span class="crayon-sy">(</span><span class="crayon-v">second</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8f5369243190-8"><span class="crayon-o">&lt;</span><span class="crayon-k ">type</span><span class="crayon-h"> </span><span class="crayon-s">'int'</span><span class="crayon-o">&gt;</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-9"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">first</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'10'</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8f5369243190-10"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">second</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'15'</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-11"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">print</span><span class="crayon-h"> </span><span class="crayon-v">first</span><span class="crayon-h"> </span><span class="crayon-o">+</span><span class="crayon-h"> </span><span class="crayon-i">second</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8f5369243190-12"><span class="crayon-cn">1015</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-13"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">type</span><span class="crayon-sy">(</span><span class="crayon-v">first</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8f5369243190-14"><span class="crayon-o">&lt;</span><span class="crayon-k ">type</span><span class="crayon-h"> </span><span class="crayon-s">'str'</span><span class="crayon-o">&gt;</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-15"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">type</span><span class="crayon-sy">(</span><span class="crayon-v">second</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bb9c87d7d8f5369243190-16"><span class="crayon-o">&lt;</span><span class="crayon-k ">type</span><span class="crayon-h"> </span><span class="crayon-s">'str'</span><span class="crayon-o">&gt;</span></div><div class="crayon-line" id="crayon-5bb9c87d7d8f5369243190-17"><span class="crayon-o">&gt;&gt;&gt;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0011 seconds] -->
+<p> </p>
+<p>در مثال بالا ما دو بار ۱۰ و ۱۵ را با هم جمع بستیم. مرتبه‌ی اول آن‌ها را بدون علامت نقل‌قول به متغیرهایشان شناساندیم و در مرتبه‌ی دوم با استفاده از علامت نقل‌قول. علامت نقل‌قول به متغیر می‌گوید که نوع این مقدار رشته یا استرینگ است. در مثال اول، پایتون با دو عدد ریاضی سر و کار دارد و آن‌ها را به صورت ریاضی با هم جمع می‌زند. در مثال دوم، پایتون با دو رشته سر و کار دارد و آن‌ها را زنجیره‌بندی می‌کند. یعنی آخر اولی را به اول بعدی و همین‌طور تا آخر همه را به هم پیوند می‌دهد. در مثال ما ۱۰ را با ۱۵ پیوند داد و خروجی ۱۰۱۵ را چاپ کرد.</p>
+<p>این نوشته تحت مجوز کرییتیو کامنز BY – NC و حمایت موسسه تحقیقاتی رامونا ارائه می‌شود. شما می‌توانید با توجه به مفاد این گواهی از آن استفاده کنید.</p>
+
+<div class="entry-tags clearfix"><i class="fa fa-tag"></i><ul><li><a href="tag/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86/" rel="tag">پایتون</a></li><li><a href="tag/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86-3/" rel="tag">پایتون 3</a></li><li><a href="tag/%d8%b9%d9%85%d9%84%da%af%d8%b1-%d9%be%db%8c%d9%85%d8%a7%d9%86%d9%87/" rel="tag">عملگر پیمانه</a></li></ul></div>
+</article>
+
+
+	</div>
+	<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar"><div id="custom_html-2" class="widget_text mh-widget widget_custom_html"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">جستجو</span></h4><div class="textwidget custom-html-widget"><div>
+<script>
+  (function() {
+    var cx = '009818856558909273057:chtsb9hvvvy';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div></div></div></aside></div>
+<div class="mh-copyright-wrap">
+	<div class="mh-container mh-container-inner clearfix">
+		<p class="mh-copyright">کپی‌رایت ۱۳۹۴-۱۳۹۷ | تمام حقوق برای ایمان امینی صاحب امتیاز ایلولا محفوظ است.</p>
+	</div>
+</div>
+</div><!-- .mh-container-outer -->
+
+</body>
+</html>
