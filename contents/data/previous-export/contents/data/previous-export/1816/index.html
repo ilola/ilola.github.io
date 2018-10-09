@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html class="no-js" dir="rtl" lang="fa-IR">
+<head>
+<base href="https://www.python3.ir/" />
+
+<base href="" />
+
+<base href="" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>پایتون برای همه | 24 | توابع در برنامه‌نویسی</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+
+
+
+<link rel='stylesheet' id='crayon-css'  href='contents/lib/crayon-syntax-highlighter/css/min/crayon.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='contents/lib/crayon-syntax-highlighter/themes/classic/classic.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='contents/lib/crayon-syntax-highlighter/fonts/monaco.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-magazine-lite-css'  href='contents/ui/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-font-awesome-css'  href='contents/ui/theme/includes/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='contents/lib/crayon-syntax-highlighter/js/min/crayon.min.js'></script>
+<script type='text/javascript' src='contents/ui/theme/js/scripts.js'></script>
+
+
+
+
+<link rel="stylesheet" href="contents/ui/theme/rtl.css" type="text/css" media="screen" />
+
+
+
+
+<!--[if lt IE 9]>
+<script src="contents/ui/theme/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="icon" href="contents/data/2018/10/cropped-python3-32x32.png" sizes="32x32" />
+<link rel="icon" href="contents/data/2018/10/cropped-python3-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="contents/data/2018/10/cropped-python3-180x180.png" />
+<meta name="msapplication-TileImage" content="contents/data/2018/10/cropped-python3-270x270.png" />
+<style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style><style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style></head>
+<body id="mh-mobile" class="rtl post-template-default single single-post postid-1816 single-format-standard wp-custom-logo mh-right-sb" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<div class="mh-container mh-container-outer">
+<div class="mh-header-mobile-nav clearfix"></div>
+<header class="mh-header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+	<div class="mh-container mh-container-inner mh-row clearfix">
+		<div class="mh-custom-header clearfix">
+<div class="mh-site-identity">
+<div class="mh-site-logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+<a href="" class="custom-logo-link" rel="home" itemprop="url"><img width="1890" height="630" src="contents/data/2018/10/cropped-Python-logo.png" class="custom-logo" alt="" itemprop="logo" srcset="contents/data/2018/10/cropped-Python-logo.png 1890w, contents/data/2018/10/cropped-Python-logo-300x100.png 300w, contents/data/2018/10/cropped-Python-logo-768x256.png 768w, contents/data/2018/10/cropped-Python-logo-1024x341.png 1024w" sizes="(max-width: 1890px) 100vw, 1890px" /></a><div class="mh-header-text">
+<a class="mh-header-text-link" href="" title="" rel="home">
+</a>
+</div>
+</div>
+</div>
+</div>
+	</div>
+	<div class="mh-main-nav-wrap">
+		<nav class="mh-navigation mh-main-nav mh-container mh-container-inner clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+			<div class="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-container"><ul id="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-27"><a href="">خانه</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="download-python-3-farsi-book/">دانلود کتاب پایتون ۳</a></li>
+</ul></div>		</nav>
+	</div>
+</header><div class="mh-wrapper clearfix">
+	<div id="main-content" class="mh-content" role="main" itemprop="mainContentOfPage"><article id="post-1816" class="post-1816 post type-post status-publish format-standard has-post-thumbnail hentry category-python3-programming tag-6 tag-7 tag-27">
+	<header class="entry-header clearfix"><h1 class="entry-title">پایتون برای همه | 24 | توابع در برنامه‌نویسی</h1><p class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="date/2017/07/">جولای 28, 2017</a></span>
+<span class="entry-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="author/eman/">Eman</a></span>
+<span class="entry-meta-categories"><i class="fa fa-folder-open-o"></i><a href="category/python3-programming/" rel="category tag">برنامه‌نویسی</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-scroll" href="1816/#mh-comments">0</a></span>
+</p>
+	</header>
+		<div class="entry-content clearfix">
+<figure class="entry-thumbnail">
+<img src="contents/data/2017/10/3-678x381.jpg" alt="پایتون ۳" title="Python-3" />
+</figure>
+
+<h2>احضار توابع در برنامه‌نویسی</h2>
+<p>در برنامه‌نویسی، یک فانکشن یا تابع، سلسله‌ای از گزاره‌ها تحت نام یا عنوانی‌ست که یک محاسبه‌ی خاص را انجام می‌دهد. زمانی که شما یک تابع را تعریف می‌کنید، در حقیقت یک نامی برای آن انتخاب کرده و سپس تحت آن نام یک سری گزاره را می‌گنجانید. در ادامه می‌توانید آن‌ها را توسط همان نام «کال» یا «فراخوانی» کنید. ما پیشتر فراخوانی توابع را دیده‌ایم. به مثال زیر دقت کنید:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a765c756594981" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; type(32)
+&lt;type 'int'&gt;</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a765c756594981-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a765c756594981-2">2</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a765c756594981-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">type</span><span class="crayon-sy">(</span><span class="crayon-cn">32</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a765c756594981-2"><span class="crayon-o">&lt;</span><span class="crayon-k ">type</span><span class="crayon-h"> </span><span class="crayon-s">'int'</span><span class="crayon-o">&gt;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0003 seconds] -->
+<p>نام تابع در مثال بالا type است. عبارتی که در پرانتز آمده «آرگویمنتِ» آن تابع به حساب می‌آید. اگر آرگویمنت شامل یک متغیر یا مقدار شود، ما آن‌ها را به تابع – به مانند مثال بالا – ارسال می‌کنیم. نتیجه‌ی احضار تابع type در مثال بالا، نشان دادن نوع داده‌ی آرگویمنتی‌ست که به آن ارسال کرده‌ایم.</p>
+<p>معمولا می‌گویند که یک تابع آرگیومنتی را «می‌گیرد» ونتیجه‌ای را «برمی‌گرداند.»</p>
+<h2>توابع توکاری شده</h2>
+<p>پایتون تعدادی از توابع مهم را در خودش دارد و لازم نیست که برای احضارشان، ابتدا آن‌ها را تعریف کنیم. سازنده‌ی پایتون، یک سری تابع برای حل مسائل معمول نوشته و در داخل پایتون برای استفاده‌ی ما قرار داده است.</p>
+<p>مثلا تابع max و min بیشترین و کمترین مقدار موجود در یک لیست را برمی‌گرداند.</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a7668753655079" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; max('Hello world')
+'w'
+&gt;&gt;&gt; min('Hello world')
+' '
+&gt;&gt;&gt;</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a7668753655079-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7668753655079-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a7668753655079-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7668753655079-4">4</div><div class="crayon-num" data-line="crayon-5bbc71d0a7668753655079-5">5</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a7668753655079-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">max</span><span class="crayon-sy">(</span><span class="crayon-s">'Hello world'</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7668753655079-2"><span class="crayon-s">'w'</span></div><div class="crayon-line" id="crayon-5bbc71d0a7668753655079-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">min</span><span class="crayon-sy">(</span><span class="crayon-s">'Hello world'</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7668753655079-4"><span class="crayon-s">' '</span></div><div class="crayon-line" id="crayon-5bbc71d0a7668753655079-5"><span class="crayon-o">&gt;&gt;&gt;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0003 seconds] -->
+<p>تابع max به ما بزرگترین کاراکتر موجود در رشته را نشان می‌دهد و کاراکتر min کوچیکترین را که در مثال بالا یک فاصله یا space است.</p>
+<p>یک تابع بسیار پرکاربرد دیگر len نام دارد. این تابع آیتم‌های موجود در آرگیومنت را شمارش می‌کند و نتیجه را برمی‌گرداند. مثلا تعداد کاراکترهای یک رشته را شمرده و به صورت یک عدد صحیح آن را برمی‌گرداند:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a766c324120083" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; len('Hello world')
+11
+&gt;&gt;&gt;</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a766c324120083-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a766c324120083-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a766c324120083-3">3</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a766c324120083-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">len</span><span class="crayon-sy">(</span><span class="crayon-s">'Hello world'</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a766c324120083-2"><span class="crayon-cn">11</span></div><div class="crayon-line" id="crayon-5bbc71d0a766c324120083-3"><span class="crayon-o">&gt;&gt;&gt;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0002 seconds] -->
+<p>این توابع فقط محدود به رشته‌ها نیستند و می‌توانند روی هر مقداری محاسبات لازم را انجام و جواب پس بدهند.</p>
+<p>به یاد داشته باشید که اسم توابع توکاری شده را به عنوان نام متغیر استفاده نکنید. به عنوان مثال اسم متغیر خود را max نگذارید.</p>
+<h2>تابع‌های تبدیل نوع</h2>
+<p>پایتون شامل تابع‌هایی برای تبدیل یک مقدار به «نوع» دیگر می‌شود. برای نمونه تابع int یک مقدار را از شما گرفته، و در صورت واجد شرایط بودنش، یک عدد صحیح تحویل شما می‌دهد. اگر هم مقدار واجد شرایط نباشد، این تابع به شما در خصوص مشکل گزارش خواهد داد:</p>
+<p>&gt;&gt;&gt; int(&#8217;32&#8217;)<br />
+32<br />
+&gt;&gt;&gt; int(&#8216;Hello&#8217;)<br />
+ValueError: invalid literal for int() with base 10: &#8216;Hello&#8217;</p>
+<p>تابع int می‌تواند یک عدد اعشاری را نیز به عدد صحیح تبدیل کند. البته کارش گِرد کردن نیست، بلکه قسمت اعشاری را می‌بُرد:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a7670324725718" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; int(3.99999)
+3
+&gt;&gt;&gt; int(-2.3)
+-2</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a7670324725718-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7670324725718-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a7670324725718-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7670324725718-4">4</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a7670324725718-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">int</span><span class="crayon-sy">(</span><span class="crayon-cn">3.99999</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7670324725718-2"><span class="crayon-cn">3</span></div><div class="crayon-line" id="crayon-5bbc71d0a7670324725718-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">int</span><span class="crayon-sy">(</span><span class="crayon-o">-</span><span class="crayon-cn">2.3</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7670324725718-4"><span class="crayon-o">-</span><span class="crayon-cn">2</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0003 seconds] -->
+<p>تابع float یک عدد صحیح یا رشته را گرفته و به عدد اعشاری تبدیل می‌کند:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a7673637642885" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; float(32)
+32.0
+&gt;&gt;&gt; float('3.14159')
+3.14159</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a7673637642885-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7673637642885-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a7673637642885-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7673637642885-4">4</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a7673637642885-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">float</span><span class="crayon-sy">(</span><span class="crayon-cn">32</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7673637642885-2"><span class="crayon-cn">32.0</span></div><div class="crayon-line" id="crayon-5bbc71d0a7673637642885-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">float</span><span class="crayon-sy">(</span><span class="crayon-s">'3.14159'</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7673637642885-4"><span class="crayon-cn">3.14159</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0003 seconds] -->
+<p>در نهایت تابع str یک آرگیومنت را دریافت و به رشته مبدل می‌کند:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a7677132325539" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; str(32)
+'32'
+&gt;&gt;&gt; str(3.14159)
+'3.14159'</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a7677132325539-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7677132325539-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a7677132325539-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7677132325539-4">4</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a7677132325539-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">str</span><span class="crayon-sy">(</span><span class="crayon-cn">32</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7677132325539-2"><span class="crayon-s">'32'</span></div><div class="crayon-line" id="crayon-5bbc71d0a7677132325539-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">str</span><span class="crayon-sy">(</span><span class="crayon-cn">3.14159</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7677132325539-4"><span class="crayon-s">'3.14159'</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0003 seconds] -->
+<p></p>
+<h2>اعداد تصادفی</h2>
+<p>ورودی یکسانی به برنامه‌های کامپیوتری بدهید و هر بار خروجی یکسانی تحویل بگیرید. قطعی بودن پاسخ، معمولا یه ویژگی خوب به حساب می‌آید، چرا که ما انتظار محاسبات یکسانی از عملیات‌های کامپیوتری داریم. ولی گاهی برای برخی از برنامه‌ها نیاز به رفتار غیرقابل پیش‌بینی احساس می‌شود. مثلا بازی‌ها یک مثال واضح از این امرند.</p>
+<p>ساخت یک برنامه‌ای که کاملا در مقابل یک محاسبه‌ی جبری و قطعی قرار بگیرد کار ساده‌ای نخواهد بود. حداقل به نظر می‌آید که نیست. یکی از این روش‌ها استفاده از الگوریتم‌هایی‌ست که اعداد شبه‌تصادفی ایجاد می‌کنند. اعداد شبه‌تصادفی، واقعا تصادفی نیستند و بر اساس محاسبات جبری به دست می‌آیند ولی برای ما و شما، تشخیص غیرتصادفی بودن آن‌ها غیرممکن است.</p>
+<p>ماژول random، توابعی را فراهم می‌کند که پایتون بتواند این اعداد شبه تصادفی را ایجاد نماید. ما در اینجا به اعداد شبه تصادفی، اعداد تصادفی می‌گوییم.</p>
+<p>تابع random در پایتون، یک عدد اعشاری بین 0.0‎ و ‎1.0 ایجاد می‌کند که شامل خود عدد 1.0‎ نمی‌شود. هر زمانی که random را فراخوانی کنید، یک عدد تصادفیِ بلند در این محدوده دریافت می‌کنید. برای نمونه نگاهی به اسکریپت زیر بیندازید (می‌توانید این کدها را در حالت تعاملی پایتون نیز وارد کنید):</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a767a089319072" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+import random
+
+for i in range(10):
+    x = random.random()
+    print(x)</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a767a089319072-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767a089319072-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a767a089319072-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767a089319072-4">4</div><div class="crayon-num" data-line="crayon-5bbc71d0a767a089319072-5">5</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a767a089319072-1"><span class="crayon-r">import</span><span class="crayon-h"> </span><span class="crayon-k ">random</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767a089319072-2">&nbsp;</div><div class="crayon-line" id="crayon-5bbc71d0a767a089319072-3"><span class="crayon-st">for</span><span class="crayon-h"> </span><span class="crayon-i">i</span><span class="crayon-h"> </span><span class="crayon-st">in</span><span class="crayon-h"> </span><span class="crayon-k ">range</span><span class="crayon-sy">(</span><span class="crayon-cn">10</span><span class="crayon-sy">)</span><span class="crayon-o">:</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767a089319072-4"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-v">x</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-k ">random</span><span class="crayon-sy">.</span><span class="crayon-k ">random</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5bbc71d0a767a089319072-5"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-k ">print</span><span class="crayon-sy">(</span><span class="crayon-v">x</span><span class="crayon-sy">)</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0005 seconds] -->
+<p>با اجرای این اسکریپت ده عدد تصادفی بین 0.0‎ و 1.0‎ ایجاد خواهد شد. در پایین اسکریپت به همراه خروجی برنامه را آورده‌ایم:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a767f556869440" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; import random
+&gt;&gt;&gt; for i in range(10):
+...     x = random.random()
+...     print(x)
+... 
+0.597816151859746
+0.14302601179310193
+0.21502653599314525
+0.6998553060747957
+0.9475634141321392
+0.014420883720896227
+0.03784440862132332
+0.08296168390036773
+0.09072806706955494
+0.07216573611640587
+&gt;&gt;&gt;</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a767f556869440-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767f556869440-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a767f556869440-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767f556869440-4">4</div><div class="crayon-num" data-line="crayon-5bbc71d0a767f556869440-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767f556869440-6">6</div><div class="crayon-num" data-line="crayon-5bbc71d0a767f556869440-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767f556869440-8">8</div><div class="crayon-num" data-line="crayon-5bbc71d0a767f556869440-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767f556869440-10">10</div><div class="crayon-num" data-line="crayon-5bbc71d0a767f556869440-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767f556869440-12">12</div><div class="crayon-num" data-line="crayon-5bbc71d0a767f556869440-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767f556869440-14">14</div><div class="crayon-num" data-line="crayon-5bbc71d0a767f556869440-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a767f556869440-16">16</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a767f556869440-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-r">import</span><span class="crayon-h"> </span><span class="crayon-k ">random</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767f556869440-2"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-st">for</span><span class="crayon-h"> </span><span class="crayon-i">i</span><span class="crayon-h"> </span><span class="crayon-st">in</span><span class="crayon-h"> </span><span class="crayon-k ">range</span><span class="crayon-sy">(</span><span class="crayon-cn">10</span><span class="crayon-sy">)</span><span class="crayon-o">:</span></div><div class="crayon-line" id="crayon-5bbc71d0a767f556869440-3"><span class="crayon-sy">.</span><span class="crayon-sy">.</span><span class="crayon-sy">.</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-v">x</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-k ">random</span><span class="crayon-sy">.</span><span class="crayon-k ">random</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767f556869440-4"><span class="crayon-sy">.</span><span class="crayon-sy">.</span><span class="crayon-sy">.</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-k ">print</span><span class="crayon-sy">(</span><span class="crayon-v">x</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5bbc71d0a767f556869440-5"><span class="crayon-sy">.</span><span class="crayon-sy">.</span><span class="crayon-sy">.</span><span class="crayon-h"> </span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767f556869440-6"><span class="crayon-cn">0.597816151859746</span></div><div class="crayon-line" id="crayon-5bbc71d0a767f556869440-7"><span class="crayon-cn">0.14302601179310193</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767f556869440-8"><span class="crayon-cn">0.21502653599314525</span></div><div class="crayon-line" id="crayon-5bbc71d0a767f556869440-9"><span class="crayon-cn">0.6998553060747957</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767f556869440-10"><span class="crayon-cn">0.9475634141321392</span></div><div class="crayon-line" id="crayon-5bbc71d0a767f556869440-11"><span class="crayon-cn">0.014420883720896227</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767f556869440-12"><span class="crayon-cn">0.03784440862132332</span></div><div class="crayon-line" id="crayon-5bbc71d0a767f556869440-13"><span class="crayon-cn">0.08296168390036773</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767f556869440-14"><span class="crayon-cn">0.09072806706955494</span></div><div class="crayon-line" id="crayon-5bbc71d0a767f556869440-15"><span class="crayon-cn">0.07216573611640587</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a767f556869440-16"><span class="crayon-o">&gt;&gt;&gt;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0008 seconds] -->
+<p>تمرین ۱: برنامه را بر روی سیستم خود اجرا کنید و ببینید چه اعدادی دریافت خواهید کرد. چند بار این کار را تکرار کنید و نگاهی به اعدادی که دریافت کرده‌اید بیندازید.</p>
+<p>تابع random یکی از چندین توابعی‌ست که کارهای مرتبط با اعداد تصادفی را انجام می‌دهد. تابع randint پارامترهای low و high را گرفته و یک عدد صحیح بین آن‌ها برمی‌گرداند:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a7683423700884" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; random.randint(5, 10)
+5
+&gt;&gt;&gt; random.randint(5, 10)
+9</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a7683423700884-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7683423700884-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a7683423700884-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7683423700884-4">4</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a7683423700884-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">random</span><span class="crayon-sy">.</span><span class="crayon-e">randint</span><span class="crayon-sy">(</span><span class="crayon-cn">5</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">10</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7683423700884-2"><span class="crayon-cn">5</span></div><div class="crayon-line" id="crayon-5bbc71d0a7683423700884-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">random</span><span class="crayon-sy">.</span><span class="crayon-e">randint</span><span class="crayon-sy">(</span><span class="crayon-cn">5</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">10</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7683423700884-4"><span class="crayon-cn">9</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0005 seconds] -->
+<p>برای انتخاب یک عنصر از میان یک سلسله آیتم می‌توانید از choice استفاده کنید:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d0a7686765205155" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; t = [1, 2, 3]
+&gt;&gt;&gt; random.choice(t)
+2
+&gt;&gt;&gt; random.choice(t)
+3</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d0a7686765205155-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7686765205155-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d0a7686765205155-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d0a7686765205155-4">4</div><div class="crayon-num" data-line="crayon-5bbc71d0a7686765205155-5">5</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d0a7686765205155-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">t</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">2</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">3</span><span class="crayon-sy">]</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7686765205155-2"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">random</span><span class="crayon-sy">.</span><span class="crayon-e">choice</span><span class="crayon-sy">(</span><span class="crayon-v">t</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5bbc71d0a7686765205155-3"><span class="crayon-cn">2</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d0a7686765205155-4"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">random</span><span class="crayon-sy">.</span><span class="crayon-e">choice</span><span class="crayon-sy">(</span><span class="crayon-v">t</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5bbc71d0a7686765205155-5"><span class="crayon-cn">3</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0030 seconds] -->
+<p>ماژول random همچنین توابعی را برای ساخت مقادیر تصادفی از توزیع‌های پیوسته – شامل توزیع نرمال، نمایی، گاما و چند نمونه‌ی دیگر – در خود دارد.</p>
+<p>این نوشته تحت مجوز کرییتیو کامنز BY – NC و حمایت موسسه تحقیقاتی رامونا ارائه می‌شود. شما می‌توانید با توجه به مفاد این گواهی از آن استفاده کنید.</p>
+
+<div class="entry-tags clearfix"><i class="fa fa-tag"></i><ul><li><a href="tag/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86/" rel="tag">پایتون</a></li><li><a href="tag/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86-3/" rel="tag">پایتون 3</a></li><li><a href="tag/%d8%aa%d9%88%d8%a7%d8%a8%d8%b9/" rel="tag">توابع</a></li></ul></div>
+</article>
+
+
+	</div>
+	<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar"><div id="custom_html-2" class="widget_text mh-widget widget_custom_html"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">جستجو</span></h4><div class="textwidget custom-html-widget"><div>
+<script>
+  (function() {
+    var cx = '009818856558909273057:chtsb9hvvvy';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div></div></div></aside></div>
+<div class="mh-copyright-wrap">
+	<div class="mh-container mh-container-inner clearfix">
+		<p class="mh-copyright">کپی‌رایت ۱۳۹۴-۱۳۹۷ | تمام حقوق برای ایمان امینی صاحب امتیاز ایلولا محفوظ است.</p>
+	</div>
+</div>
+</div><!-- .mh-container-outer -->
+
+<div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org">TurnKey Linux</a> </div> </div><div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org">TurnKey Linux</a> </div> </div></body>
+</html>

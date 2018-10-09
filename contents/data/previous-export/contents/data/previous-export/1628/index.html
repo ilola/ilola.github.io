@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="no-js" dir="rtl" lang="fa-IR">
+<head>
+<base href="https://www.python3.ir/" />
+
+<base href="" />
+
+<base href="" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>پایتون برای همه | 33 | فایل‌ها در پایتون | ماندگاری و باز کردن فایل‌ها</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+
+
+
+<link rel='stylesheet' id='crayon-css'  href='contents/lib/crayon-syntax-highlighter/css/min/crayon.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='contents/lib/crayon-syntax-highlighter/themes/classic/classic.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='contents/lib/crayon-syntax-highlighter/fonts/monaco.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-magazine-lite-css'  href='contents/ui/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-font-awesome-css'  href='contents/ui/theme/includes/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='contents/lib/crayon-syntax-highlighter/js/min/crayon.min.js'></script>
+<script type='text/javascript' src='contents/ui/theme/js/scripts.js'></script>
+
+
+
+
+<link rel="stylesheet" href="contents/ui/theme/rtl.css" type="text/css" media="screen" />
+
+
+
+
+<!--[if lt IE 9]>
+<script src="contents/ui/theme/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="icon" href="contents/data/2018/10/cropped-python3-32x32.png" sizes="32x32" />
+<link rel="icon" href="contents/data/2018/10/cropped-python3-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="contents/data/2018/10/cropped-python3-180x180.png" />
+<meta name="msapplication-TileImage" content="contents/data/2018/10/cropped-python3-270x270.png" />
+<style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style><style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style></head>
+<body id="mh-mobile" class="rtl post-template-default single single-post postid-1628 single-format-standard wp-custom-logo mh-right-sb" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<div class="mh-container mh-container-outer">
+<div class="mh-header-mobile-nav clearfix"></div>
+<header class="mh-header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+	<div class="mh-container mh-container-inner mh-row clearfix">
+		<div class="mh-custom-header clearfix">
+<div class="mh-site-identity">
+<div class="mh-site-logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+<a href="" class="custom-logo-link" rel="home" itemprop="url"><img width="1890" height="630" src="contents/data/2018/10/cropped-Python-logo.png" class="custom-logo" alt="" itemprop="logo" srcset="contents/data/2018/10/cropped-Python-logo.png 1890w, contents/data/2018/10/cropped-Python-logo-300x100.png 300w, contents/data/2018/10/cropped-Python-logo-768x256.png 768w, contents/data/2018/10/cropped-Python-logo-1024x341.png 1024w" sizes="(max-width: 1890px) 100vw, 1890px" /></a><div class="mh-header-text">
+<a class="mh-header-text-link" href="" title="" rel="home">
+</a>
+</div>
+</div>
+</div>
+</div>
+	</div>
+	<div class="mh-main-nav-wrap">
+		<nav class="mh-navigation mh-main-nav mh-container mh-container-inner clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+			<div class="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-container"><ul id="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-27"><a href="">خانه</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="download-python-3-farsi-book/">دانلود کتاب پایتون ۳</a></li>
+</ul></div>		</nav>
+	</div>
+</header><div class="mh-wrapper clearfix">
+	<div id="main-content" class="mh-content" role="main" itemprop="mainContentOfPage"><article id="post-1628" class="post-1628 post type-post status-publish format-standard has-post-thumbnail hentry category-python3-programming tag-6 tag-7 tag-38">
+	<header class="entry-header clearfix"><h1 class="entry-title">پایتون برای همه | 33 | فایل‌ها در پایتون | ماندگاری و باز کردن فایل‌ها</h1><p class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="date/2017/10/">اکتبر 4, 2017</a></span>
+<span class="entry-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="author/eman/">Eman</a></span>
+<span class="entry-meta-categories"><i class="fa fa-folder-open-o"></i><a href="category/python3-programming/" rel="category tag">برنامه‌نویسی</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-scroll" href="1628/#mh-comments">0</a></span>
+</p>
+	</header>
+		<div class="entry-content clearfix">
+<figure class="entry-thumbnail">
+<img src="contents/data/2017/10/3-678x381.jpg" alt="پایتون ۳" title="Python-3" />
+</figure>
+
+<h2>ماندگاری فایل‌ها</h2>
+<p>تا اینجا ما در خصوص نحوه‌ی نوشتن برنامه‌ها و ارتباط برقرار کردن با واحد پردازش مرکزی با استفاده از اجرای شرطی، توابع و تکرارها آشنا شدیم. ما در خصوص چگونگی ساخت و استفاده از ساختار داده در حافظه‌ی اصلی نیز آموختیم. CPU و حافظه جایی‌اند که نرم‌افزار ما در آن‌ها کار می‌کند و اجرا می‌شود. در اصل این منطقه همان جایی‌ست که &#8220;فکر کردن&#8221; اتفاق می‌افتد.</p>
+<p>ولی مشکل اینجاست که ما می‌خواهیم بحث میان سخت‌افزارهای ما ادامه داشته باشد، اما همین که برق برود و سیستم خاموش شود، تمام آنچه در CPU و حافظه اصلی بوده پاک خواهد شد. برنامه‌های پایتونی ما تلاش‌های تفریحیِ ناپایداری خواهند بود که از بین می‌روند.</p>
+<p><a href="https://ilola.ir/contents/data/2017/08/07-01.gif"><img src="https://ilola.ir/contents/data/2017/08/07-01-1024x610.gif" alt="ماندگاری فایل" width="1024" height="610" class="aligncenter size-large wp-image-1630" /></a></p>
+<p>در این فصل ما با حافظه‌ی جانبی (یا فایل‌ها) سر و کار داریم. اطلاعات در حافظه‌ی جانبی زمانی‌که سیستم خاموش می‌شود، از بین نمی‌رود؛ یا مثلا برنامه‌ای که نوشته‌ایم می‌تواند بر روی یک حافظه‌ی فلش کپی شده، از سیستم جدا و سپس به یک سیستم دیگر منتقل و اجرا شود.</p>
+<p>تمرکز اصلی ما بر روی خواندن و نوشتن فایل‌های متنی مانند همان‌هایی که در ویرایشگر متن می‌نویسیم، خواهد بود. در ادامه یاد خواهیم گرفت که چطور با فایل‌های پایگاه داده که فایل‌های باینری‌اند کار کنیم؛ به‌خصوص آن‌ها که برای خوانده و نوشتن شدن توسط نرم‌افزارهای پایگاه‌ طراحی شده‌اند.</p>
+<h2>باز کردن فایل‌ها</h2>
+<p>وقتی قرار است که فایلی را بخوانیم یا بر روی آن بنویسیم (مثلا فایل‌های روی هارد دیسک شما)، ابتدا باید فایل را باز کنیم. باز کردن فایل، برقراری ارتباط با سیستم‌عامل شما به حساب می‌آید. چرا سیستم‌عامل؟ چون سیستم‌عامل است که می‌داند هر فایل در کجا ذخیره شده است. زمانی که شما یک فایل را باز می‌کنید، از سیستم‌عامل می‌پرسید که آن فایل را از طریق نامش پیدا کرده و مطمئن شود که فایل اصلا وجود دارد. در این مثال، ما فایل mbox.txt که در همان فولدر جاری است را باز می‌کنیم؛ منظورمان از فولدر جاری، همان مسیری‌ست که پایتون در آن اجرا شده است. شما می‌توانید فایل را از طریق این لینک دانلود کنید:</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d91e91d999470749" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+http://www.py4e.com/code3/mbox.txt
+&gt;&gt;&gt; fhand = open('mbox.txt')
+&gt;&gt;&gt; print(fhand)
+&lt;_io.TextIOWrapper name='mbox.txt' mode='r' encoding='cp1252'&gt;</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d91e91d999470749-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d91e91d999470749-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d91e91d999470749-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d91e91d999470749-4">4</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d91e91d999470749-1"><span class="crayon-v">http</span><span class="crayon-o">:</span><span class="crayon-o">/</span><span class="crayon-o">/</span><span class="crayon-v">www</span><span class="crayon-sy">.</span><span class="crayon-v">py4e</span><span class="crayon-sy">.</span><span class="crayon-v">com</span><span class="crayon-o">/</span><span class="crayon-v">code3</span><span class="crayon-o">/</span><span class="crayon-v">mbox</span><span class="crayon-sy">.</span><span class="crayon-v">txt</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d91e91d999470749-2"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">fhand</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-k ">open</span><span class="crayon-sy">(</span><span class="crayon-s">'mbox.txt'</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5bbc71d91e91d999470749-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">print</span><span class="crayon-sy">(</span><span class="crayon-v">fhand</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d91e91d999470749-4"><span class="crayon-o">&lt;</span><span class="crayon-v">_io</span><span class="crayon-sy">.</span><span class="crayon-e">TextIOWrapper </span><span class="crayon-v">name</span><span class="crayon-o">=</span><span class="crayon-s">'mbox.txt'</span><span class="crayon-h"> </span><span class="crayon-v">mode</span><span class="crayon-o">=</span><span class="crayon-s">'r'</span><span class="crayon-h"> </span><span class="crayon-v">encoding</span><span class="crayon-o">=</span><span class="crayon-s">'cp1252'</span><span class="crayon-o">&gt;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0008 seconds] -->
+<p> </p>
+<p>اگر عملیات open موفقیت‌آمیز باشد، سیستم عامل یک file handle یا «دستگیره‌ی فایل» باز می‌گرداند. دستگیره‌ی فایل، خودِ داده‌های موجود در فایل نیست، اما در عوض یک «دستگیره» است که ما می‌توانیم با استفاده از آن، داده‌ها را بخوانیم. اگر فایل درخواست‌شده وجود خارجی داشته باشد، شما یک دستگیره خواهید داشت و اگر مجوزهای لازم را در اختیار داشته باشید، فایل خوانده خواهد شد.</p>
+<p><a href="https://ilola.ir/contents/data/2017/08/07-02.png"><img src="https://ilola.ir/contents/data/2017/08/07-02-1024x531.png" alt="دستگیره فایل" width="1024" height="531" class="aligncenter size-large wp-image-1629" /></a></p>
+<p>اگر فایل وجود خارجی نداشته باشد، open با شکست روبرو شده و شما را به یک تریس‌بک مهمان خواهد کرد. در نهایت شما دستگیره، برای دسترسی به محتویات فایل، نخواهید داشت:</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71d91e929819864748" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; fhand = open('stuff.txt')
+Traceback (most recent call last):
+  File "", line 1, in 
+FileNotFoundError: [Errno 2] No such file or directory: 'stuff.txt'</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71d91e929819864748-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d91e929819864748-2">2</div><div class="crayon-num" data-line="crayon-5bbc71d91e929819864748-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71d91e929819864748-4">4</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71d91e929819864748-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">fhand</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-k ">open</span><span class="crayon-sy">(</span><span class="crayon-s">'stuff.txt'</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d91e929819864748-2"><span class="crayon-k ">Traceback</span><span class="crayon-h"> </span><span class="crayon-sy">(</span><span class="crayon-e">most </span><span class="crayon-e">recent </span><span class="crayon-e">call </span><span class="crayon-v">last</span><span class="crayon-sy">)</span><span class="crayon-o">:</span></div><div class="crayon-line" id="crayon-5bbc71d91e929819864748-3"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-k ">File</span><span class="crayon-h"> </span><span class="crayon-s">""</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-i">line</span><span class="crayon-h"> </span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-st">in</span><span class="crayon-h"> </span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71d91e929819864748-4"><span class="crayon-v">FileNotFoundError</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-k ">Errno</span><span class="crayon-h"> </span><span class="crayon-cn">2</span><span class="crayon-sy">]</span><span class="crayon-h"> </span><span class="crayon-e">No </span><span class="crayon-e">such </span><span class="crayon-k ">file</span><span class="crayon-h"> </span><span class="crayon-st">or</span><span class="crayon-h"> </span><span class="crayon-v">directory</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-s">'stuff.txt'</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0010 seconds] -->
+<p> </p>
+<p>در ادامه ما از try و except برای مدیریت موقرانه این حالت استفاده خواهیم کرد. به این صورت وقتی تلاش کردیم که یک فایلی که وجود ندارد را باز کنیم، با تریس‌بکِ خشنِ پایتون چشم‌درچشم نشویم.</p>
+<p>این نوشته تحت مجوز کرییتیو کامنز BY – NC و حمایت موسسه تحقیقاتی رامونا ارائه می‌شود. شما می‌توانید با توجه به مفاد این گواهی از آن استفاده کنید.</p>
+
+<div class="entry-tags clearfix"><i class="fa fa-tag"></i><ul><li><a href="tag/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86/" rel="tag">پایتون</a></li><li><a href="tag/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86-3/" rel="tag">پایتون 3</a></li><li><a href="tag/%d9%81%d8%a7%db%8c%d9%84/" rel="tag">فایل</a></li></ul></div>
+</article>
+
+
+	</div>
+	<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar"><div id="custom_html-2" class="widget_text mh-widget widget_custom_html"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">جستجو</span></h4><div class="textwidget custom-html-widget"><div>
+<script>
+  (function() {
+    var cx = '009818856558909273057:chtsb9hvvvy';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div></div></div></aside></div>
+<div class="mh-copyright-wrap">
+	<div class="mh-container mh-container-inner clearfix">
+		<p class="mh-copyright">کپی‌رایت ۱۳۹۴-۱۳۹۷ | تمام حقوق برای ایمان امینی صاحب امتیاز ایلولا محفوظ است.</p>
+	</div>
+</div>
+</div><!-- .mh-container-outer -->
+
+<div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org">TurnKey Linux</a> </div> </div><div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org">TurnKey Linux</a> </div> </div></body>
+</html>

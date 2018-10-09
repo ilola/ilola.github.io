@@ -8,10 +8,10 @@
 	>
 
 <channel>
-	<title></title>
+	<title>کتاب پایتون ۳</title>
 	<atom:link href="http://192.168.1.6/feed/" rel="self" type="application/rss+xml" />
 	<link>http://192.168.1.6</link>
-	<description></description>
+	<description>دانلود کتاب پایتون 3 برای تازه کاران</description>
 	<lastBuildDate>Sun, 07 Oct 2018 08:48:09 +0000</lastBuildDate>
 	<language>fa-IR</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
@@ -20,7 +20,7 @@
 
 <image>
 	<url>http://192.168.1.6/contents/data/2018/10/cropped-python3-32x32.png</url>
-	<title></title>
+	<title>کتاب پایتون ۳</title>
 	<link>http://192.168.1.6</link>
 	<width>32</width>
 	<height>32</height>
@@ -32,9 +32,6 @@
 		<pubDate>Fri, 06 Oct 2017 07:26:38 +0000</pubDate>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
-		<category><![CDATA[فایل متنی]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1644</guid>
 		<description><![CDATA[یک فایل متنی را می‌توان سلسله‌ای از خطوط در نظر گرفت. درست مثل سلسله‌ای از کاراکترها که در پایتون یک رشته خوانده می‌شود. نوشته‌ی زیر، <a class="mh-excerpt-more" href="http://192.168.1.6/1644/" title="پایتون برای همه &#124; 34 &#124; فایل متنی و خطوط">[...]</a>]]></description>
@@ -83,9 +80,6 @@ Y
 		<pubDate>Wed, 04 Oct 2017 05:34:40 +0000</pubDate>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
-		<category><![CDATA[فایل]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1628</guid>
 		<description><![CDATA[ماندگاری فایل‌ها تا اینجا ما در خصوص نحوه‌ی نوشتن برنامه‌ها و ارتباط برقرار کردن با واحد پردازش مرکزی با استفاده از اجرای شرطی، توابع و <a class="mh-excerpt-more" href="http://192.168.1.6/1628/" title="پایتون برای همه &#124; 33 &#124; فایل‌ها در پایتون &#124; ماندگاری و باز کردن فایل‌ها">[...]</a>]]></description>
@@ -121,8 +115,6 @@ FileNotFoundError: [Errno 2] No such file or directory: 'stuff.txt'</pre><p> </p
 		<pubDate>Wed, 20 Sep 2017 07:04:42 +0000</pubDate>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1625</guid>
 		<description><![CDATA[تجزیه تحلیل (پارس کردن) رشته‌ها احتمالاً برای شما هم زیاد پیش می‌آید که به داخل یک رشته نگاه کرده و به دنبال یک زیر-رشته بگردید. <a class="mh-excerpt-more" href="http://192.168.1.6/1625/" title="پایتون برای همه &#124; 32 &#124; تجزیه تحلیل (پارس کردن) رشته‌ها و عملگر Format و تمرین‌ها">[...]</a>]]></description>
@@ -228,10 +220,6 @@ IndexError: string index out of range</pre><p>کد به خوبی کار می‌�
 		<pubDate>Sat, 26 Aug 2017 06:23:41 +0000</pubDate>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
-		<category><![CDATA[آبجکت]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
-		<category><![CDATA[متد]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1621</guid>
 		<description><![CDATA[عملگر in کلمه‌ی in یک عملگر بولی است که دو رشته را می‌گیرد و True را اگر رشته‌ی اول به عنوان قسمتی از رشته‌ی دوم <a class="mh-excerpt-more" href="http://192.168.1.6/1621/" title="پایتون برای همه &#124; 31 &#124; آبجکت و متد">[...]</a>]]></description>
@@ -342,8 +330,6 @@ True
 		<pubDate>Wed, 09 Aug 2017 06:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1611</guid>
 		<description><![CDATA[بسیاری از محاسبات، با استفاده از پردازش تک‌تک کاراکترهای موجود در یک رشته صورت می‌پذیرد. اغلب از ابتدا آغاز می‌شود، هر کاراکتر را به صورت <a class="mh-excerpt-more" href="http://192.168.1.6/1611/" title="پایتون برای همه &#124; 30 &#124; پیمایش در رشته &#124; تغییرناپذیری رشته‌ها &#124; حلقه‌زنی و شمارش">[...]</a>]]></description>
@@ -413,13 +399,9 @@ print(count)</pre><p> </p>
 		<pubDate>Tue, 08 Aug 2017 03:09:30 +0000</pubDate>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
-		<category><![CDATA[رشته]]></category>
-		<category><![CDATA[طول رشته]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1604</guid>
-		<description><![CDATA[رشته چیست؟ یک رشته، زنجیره‌ای از کاراکترهاست. شما می‌توانید با استفاده از عملگر قلاب به هر کاراکتر در آنِ واحد دسترسی داشته باشید: [crayon-5bbc75af2eebf715999920/] گزاره‌ی <a class="mh-excerpt-more" href="http://192.168.1.6/1604/" title="پایتون برای همه &#124; 29 &#124; رشته و طول آن‌ها">[...]</a>]]></description>
+		<description><![CDATA[رشته چیست؟ یک رشته، زنجیره‌ای از کاراکترهاست. شما می‌توانید با استفاده از عملگر قلاب به هر کاراکتر در آنِ واحد دسترسی داشته باشید: [crayon-5bbd1bd2483ba659281296/] گزاره‌ی <a class="mh-excerpt-more" href="http://192.168.1.6/1604/" title="پایتون برای همه &#124; 29 &#124; رشته و طول آن‌ها">[...]</a>]]></description>
 				<content:encoded><![CDATA[<h2>رشته چیست؟</h2>
 <p>یک رشته، زنجیره‌ای از کاراکترهاست. شما می‌توانید با استفاده از عملگر قلاب به هر کاراکتر در آنِ واحد دسترسی داشته باشید:</p>
 <p></p><pre class="crayon-plain-tag">&gt;&gt;&gt; fruit = 'banana'
@@ -463,9 +445,6 @@ a</pre><p> </p>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
 		<category><![CDATA[for]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
-		<category><![CDATA[حلقه]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1597</guid>
 		<description><![CDATA[تعریف حلقه‌ها با for گاهی لازم است که بین دسته‌ای و محتویاتش دور بزنیم؛ مثلا بین لیستی از کلمه‌ها، یا خطوط در یک فایل، و <a class="mh-excerpt-more" href="http://192.168.1.6/1597/" title="پایتون برای همه &#124; 28 &#124; تعریف حلقه‌ها با for &#124; واژگان فصل پنجم">[...]</a>]]></description>
@@ -577,10 +556,6 @@ Enter a number: done
 		<category><![CDATA[break]]></category>
 		<category><![CDATA[continue]]></category>
 		<category><![CDATA[while]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
-		<category><![CDATA[تکرار]]></category>
-		<category><![CDATA[حلقه]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1570</guid>
 		<description><![CDATA[به‌روز رسانی متغیرها یک الگوی رایج در گزاره‌های گمارشی، دستور آپدیت‌‌کردن یک متغیر است؛ به صورتی که مقدار جدید یک متغیر، به مقدار قبلی آن <a class="mh-excerpt-more" href="http://192.168.1.6/1570/" title="پایتون برای همه &#124; 27 &#124; تکرار و حلقه while">[...]</a>]]></description>
@@ -675,9 +650,6 @@ Done!</pre><p> </p>
 		<pubDate>Tue, 01 Aug 2017 08:29:57 +0000</pubDate>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
-		<category><![CDATA[توابع]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1564</guid>
 		<description><![CDATA[پارامترها و آرگویمنت‌ها بعضی از توابع توکاری‌شده‌ای که تاکنون استفاده کرده‌ایم، به آرگیومنت احتیاج داشتند. به عنوان نمونه زمانی که math.sin را فراخوانی می‌کنیم، یک <a class="mh-excerpt-more" href="http://192.168.1.6/1564/" title="پایتون برای همه &#124; 26 &#124; پارامترها و آرگویمنت‌ها &#124; تمرین‌ها و واژگان فصل ۴">[...]</a>]]></description>
@@ -818,13 +790,9 @@ F</pre><p></p>
 		<pubDate>Sun, 30 Jul 2017 06:14:51 +0000</pubDate>
 		<dc:creator><![CDATA[Eman]]></dc:creator>
 				<category><![CDATA[برنامه‌نویسی]]></category>
-		<category><![CDATA[پایتون]]></category>
-		<category><![CDATA[پایتون 3]]></category>
-		<category><![CDATA[توابع ریاضی]]></category>
-		<category><![CDATA[جریان اجرا]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1532</guid>
-		<description><![CDATA[توابع ریاضی [crayon-5bbc75af30fc4637341299/] اینکار یک ماژل مقصد به اسم math می‌سازد. اگر شما ماژل مقصد را چاپ کنید، اطلاعاتی در خصوص آن در خروجی ظاهر <a class="mh-excerpt-more" href="http://192.168.1.6/1532/" title="پایتون برای همه &#124; 25 &#124; توابع ریاضی &#124; جریان اجرا">[...]</a>]]></description>
+		<description><![CDATA[توابع ریاضی [crayon-5bbd1bd249bbd823388746/] اینکار یک ماژل مقصد به اسم math می‌سازد. اگر شما ماژل مقصد را چاپ کنید، اطلاعاتی در خصوص آن در خروجی ظاهر <a class="mh-excerpt-more" href="http://192.168.1.6/1532/" title="پایتون برای همه &#124; 25 &#124; توابع ریاضی &#124; جریان اجرا">[...]</a>]]></description>
 				<content:encoded><![CDATA[<h2>توابع ریاضی</h2>
 <p></p><pre class="crayon-plain-tag">&gt;&gt;&gt; import math
 &gt;&gt;&gt;</pre><p> </p>
