@@ -79,21 +79,7 @@ var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Cl
 				</label>
 				<input type="submit" class="search-submit" value="جستجو" />
 			</form>		</div>
-		<div class="404-recent-articles mh-widget-col-2"><div class="mh-widget"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">نوشته‌های تازه</span></h4>			<ul class="mh-custom-posts-widget clearfix">					<li class="post-1860 mh-custom-posts-item mh-custom-posts-small clearfix">
-						<figure class="mh-custom-posts-thumb">
-							<a href="1860/" title=""><img class="mh-image-placeholder" src="contents/ui/theme/images/placeholder-small.png" alt="بدون تصویر" />							</a>
-						</figure>
-						<div class="mh-custom-posts-header">
-							<p class="mh-custom-posts-small-title">
-								<a href="1860/" title="">
-																	</a>
-							</p>
-							<div class="mh-meta mh-custom-posts-meta">
-								<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>اکتبر 9, 2018</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="1860/#mh-comments">0</a></span>
-							</div>
-						</div>
-					</li>					<li class="post-1644 mh-custom-posts-item mh-custom-posts-small clearfix">
+		<div class="404-recent-articles mh-widget-col-2"><div class="mh-widget"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">نوشته‌های تازه</span></h4>			<ul class="mh-custom-posts-widget clearfix">					<li class="post-1644 mh-custom-posts-item mh-custom-posts-small clearfix">
 						<figure class="mh-custom-posts-thumb">
 							<a href="1644/" title="پایتون برای همه | 34 | فایل متنی و خطوط"><img width="80" height="60" src="contents/data/2017/10/3-80x60.jpg" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="پایتون ۳" srcset="contents/data/2017/10/3-80x60.jpg 80w, contents/data/2017/10/3-300x225.jpg 300w, contents/data/2017/10/3-768x576.jpg 768w, contents/data/2017/10/3-1024x768.jpg 1024w, contents/data/2017/10/3-678x509.jpg 678w, contents/data/2017/10/3-326x245.jpg 326w, contents/data/2017/10/3.jpg 1030w" sizes="(max-width: 80px) 100vw, 80px" />							</a>
 						</figure>
@@ -161,6 +147,20 @@ var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Cl
 							<div class="mh-meta mh-custom-posts-meta">
 								<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>آگوست 9, 2017</span>
 <span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="1611/#mh-comments">0</a></span>
+							</div>
+						</div>
+					</li>					<li class="post-1604 mh-custom-posts-item mh-custom-posts-small clearfix">
+						<figure class="mh-custom-posts-thumb">
+							<a href="1604/" title="پایتون برای همه | 29 | رشته و طول آن‌ها"><img width="80" height="60" src="contents/data/2017/10/3-80x60.jpg" class="attachment-mh-magazine-lite-small size-mh-magazine-lite-small wp-post-image" alt="پایتون ۳" srcset="contents/data/2017/10/3-80x60.jpg 80w, contents/data/2017/10/3-300x225.jpg 300w, contents/data/2017/10/3-768x576.jpg 768w, contents/data/2017/10/3-1024x768.jpg 1024w, contents/data/2017/10/3-678x509.jpg 678w, contents/data/2017/10/3-326x245.jpg 326w, contents/data/2017/10/3.jpg 1030w" sizes="(max-width: 80px) 100vw, 80px" />							</a>
+						</figure>
+						<div class="mh-custom-posts-header">
+							<p class="mh-custom-posts-small-title">
+								<a href="1604/" title="پایتون برای همه | 29 | رشته و طول آن‌ها">
+									پایتون برای همه | 29 | رشته و طول آن‌ها								</a>
+							</p>
+							<div class="mh-meta mh-custom-posts-meta">
+								<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>آگوست 8, 2017</span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="1604/#mh-comments">2</a></span>
 							</div>
 						</div>
 					</li>        	</ul></div>		</div>
