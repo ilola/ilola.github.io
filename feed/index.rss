@@ -419,7 +419,7 @@ print(count)</pre><p> </p>
 		<category><![CDATA[طول رشته]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1604</guid>
-		<description><![CDATA[رشته چیست؟ یک رشته، زنجیره‌ای از کاراکترهاست. شما می‌توانید با استفاده از عملگر قلاب به هر کاراکتر در آنِ واحد دسترسی داشته باشید: [crayon-5bbc71add979b439315235/] گزاره‌ی <a class="mh-excerpt-more" href="http://192.168.1.6/1604/" title="پایتون برای همه &#124; 29 &#124; رشته و طول آن‌ها">[...]</a>]]></description>
+		<description><![CDATA[رشته چیست؟ یک رشته، زنجیره‌ای از کاراکترهاست. شما می‌توانید با استفاده از عملگر قلاب به هر کاراکتر در آنِ واحد دسترسی داشته باشید: [crayon-5bbc75af2eebf715999920/] گزاره‌ی <a class="mh-excerpt-more" href="http://192.168.1.6/1604/" title="پایتون برای همه &#124; 29 &#124; رشته و طول آن‌ها">[...]</a>]]></description>
 				<content:encoded><![CDATA[<h2>رشته چیست؟</h2>
 <p>یک رشته، زنجیره‌ای از کاراکترهاست. شما می‌توانید با استفاده از عملگر قلاب به هر کاراکتر در آنِ واحد دسترسی داشته باشید:</p>
 <p></p><pre class="crayon-plain-tag">&gt;&gt;&gt; fruit = 'banana'
@@ -824,7 +824,7 @@ F</pre><p></p>
 		<category><![CDATA[جریان اجرا]]></category>
 
 		<guid isPermaLink="false">https://ilola.ir/?p=1532</guid>
-		<description><![CDATA[توابع ریاضی [crayon-5bbc71addb0c6576726957/] اینکار یک ماژل مقصد به اسم math می‌سازد. اگر شما ماژل مقصد را چاپ کنید، اطلاعاتی در خصوص آن در خروجی ظاهر <a class="mh-excerpt-more" href="http://192.168.1.6/1532/" title="پایتون برای همه &#124; 25 &#124; توابع ریاضی &#124; جریان اجرا">[...]</a>]]></description>
+		<description><![CDATA[توابع ریاضی [crayon-5bbc75af30fc4637341299/] اینکار یک ماژل مقصد به اسم math می‌سازد. اگر شما ماژل مقصد را چاپ کنید، اطلاعاتی در خصوص آن در خروجی ظاهر <a class="mh-excerpt-more" href="http://192.168.1.6/1532/" title="پایتون برای همه &#124; 25 &#124; توابع ریاضی &#124; جریان اجرا">[...]</a>]]></description>
 				<content:encoded><![CDATA[<h2>توابع ریاضی</h2>
 <p></p><pre class="crayon-plain-tag">&gt;&gt;&gt; import math
 &gt;&gt;&gt;</pre><p> </p>

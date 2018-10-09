@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html class="no-js" dir="rtl" lang="fa-IR">
+<head>
+<base href="https://www.python3.ir/" />
+
+<base href="" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>پایتون برای همه | 12 | متغیرها، قوانین انتخاب نام، و کلمات کلیدی</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+
+
+
+
+<link rel='stylesheet' id='crayon-css'  href='contents/lib/crayon-syntax-highlighter/css/min/crayon.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='contents/lib/crayon-syntax-highlighter/themes/classic/classic.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='contents/lib/crayon-syntax-highlighter/fonts/monaco.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-magazine-lite-css'  href='contents/ui/theme/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mh-font-awesome-css'  href='contents/ui/theme/includes/font-awesome.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='contents/lib/crayon-syntax-highlighter/js/min/crayon.min.js'></script>
+<script type='text/javascript' src='contents/ui/theme/js/scripts.js'></script>
+
+
+
+
+<link rel="stylesheet" href="contents/ui/theme/rtl.css" type="text/css" media="screen" />
+
+
+
+
+<!--[if lt IE 9]>
+<script src="contents/ui/theme/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="icon" href="contents/data/2018/10/cropped-python3-32x32.png" sizes="32x32" />
+<link rel="icon" href="contents/data/2018/10/cropped-python3-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="contents/data/2018/10/cropped-python3-180x180.png" />
+<meta name="msapplication-TileImage" content="contents/data/2018/10/cropped-python3-270x270.png" />
+<style type="text/css"> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; } </style></head>
+<body id="mh-mobile" class="rtl post-template-default single single-post postid-1438 single-format-standard wp-custom-logo mh-right-sb" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<div class="mh-container mh-container-outer">
+<div class="mh-header-mobile-nav clearfix"></div>
+<header class="mh-header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+	<div class="mh-container mh-container-inner mh-row clearfix">
+		<div class="mh-custom-header clearfix">
+<div class="mh-site-identity">
+<div class="mh-site-logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+<a href="" class="custom-logo-link" rel="home" itemprop="url"><img width="1890" height="630" src="contents/data/2018/10/cropped-Python-logo.png" class="custom-logo" alt="" itemprop="logo" srcset="contents/data/2018/10/cropped-Python-logo.png 1890w, contents/data/2018/10/cropped-Python-logo-300x100.png 300w, contents/data/2018/10/cropped-Python-logo-768x256.png 768w, contents/data/2018/10/cropped-Python-logo-1024x341.png 1024w" sizes="(max-width: 1890px) 100vw, 1890px" /></a><div class="mh-header-text">
+<a class="mh-header-text-link" href="" title="" rel="home">
+</a>
+</div>
+</div>
+</div>
+</div>
+	</div>
+	<div class="mh-main-nav-wrap">
+		<nav class="mh-navigation mh-main-nav mh-container mh-container-inner clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+			<div class="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-container"><ul id="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-27"><a href="">خانه</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="download-python-3-farsi-book/">دانلود کتاب پایتون ۳</a></li>
+</ul></div>		</nav>
+	</div>
+</header><div class="mh-wrapper clearfix">
+	<div id="main-content" class="mh-content" role="main" itemprop="mainContentOfPage"><article id="post-1438" class="post-1438 post type-post status-publish format-standard has-post-thumbnail hentry category-python3-programming tag-6 tag-7 tag-14">
+	<header class="entry-header clearfix"><h1 class="entry-title">پایتون برای همه | 12 | متغیرها، قوانین انتخاب نام، و کلمات کلیدی</h1><p class="mh-meta entry-meta">
+<span class="entry-meta-date updated"><i class="fa fa-clock-o"></i><a href="date/2017/07/">جولای 6, 2017</a></span>
+<span class="entry-meta-author author vcard"><i class="fa fa-user"></i><a class="fn" href="author/eman/">Eman</a></span>
+<span class="entry-meta-categories"><i class="fa fa-folder-open-o"></i><a href="category/python3-programming/" rel="category tag">برنامه‌نویسی</a></span>
+<span class="entry-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-scroll" href="1438/#mh-comments">0</a></span>
+</p>
+	</header>
+		<div class="entry-content clearfix">
+<figure class="entry-thumbnail">
+<img src="contents/data/2017/10/3-678x381.jpg" alt="پایتون ۳" title="Python-3" />
+</figure>
+
+<p>یکی از برجسته‌ترین ویژگی‌های یک زبان برنامه‌نویسی، قابلیت کار با متغیرها می‌باشد. یک متغیر، نامی است که به یک مقدار اشاره می‌کند.<br />
+یک Assignment Statement یا گزاره‌ی گمارشی، یک متغیر را می‌سازد (اگر پیشتر موجود نباشد) و سپس مقداری را به آن نسبت یا اختصاص می‌دهد.</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71c91117b510697124" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; message = 'And now for something completely different'
+&gt;&gt;&gt; n = 17
+&gt;&gt;&gt; pi = 3.1415926535897931</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71c91117b510697124-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c91117b510697124-2">2</div><div class="crayon-num" data-line="crayon-5bbc71c91117b510697124-3">3</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71c91117b510697124-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">message</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'And now for something completely different'</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c91117b510697124-2"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">n</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-cn">17</span></div><div class="crayon-line" id="crayon-5bbc71c91117b510697124-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">pi</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-cn">3.1415926535897931</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0004 seconds] -->
+<p> </p>
+<p>در مثال بالا ما سه مقدار را به سه متغیر اختصاص داده‌ایم. اولین خط، یک پیغام را به متغیر message، دومی عدد 17 را به n و سومی مقدار تقریبی عدد پی را به متغیر pi اختصاص داده است.<br />
+برای نمایش مقدارِ یک متغیر می‌توانید از دستور print استفاده کنید: </p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71c911187128099247" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; print(n)
+17
+&gt;&gt;&gt; print(pi)
+3.141592653589793</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71c911187128099247-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911187128099247-2">2</div><div class="crayon-num" data-line="crayon-5bbc71c911187128099247-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911187128099247-4">4</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71c911187128099247-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">print</span><span class="crayon-sy">(</span><span class="crayon-v">n</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911187128099247-2"><span class="crayon-cn">17</span></div><div class="crayon-line" id="crayon-5bbc71c911187128099247-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">print</span><span class="crayon-sy">(</span><span class="crayon-v">pi</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911187128099247-4"><span class="crayon-cn">3.141592653589793</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0004 seconds] -->
+<p> </p>
+<p>نوع یک متغیر برابر با نوع مقداری‌ست که به آن متغیر نسبت داده شده است. مثلا در مثال فوق 17 یک عدد صحیح یا int است. نوع n نیز بر اساس این مقدار int یا عدد صحیح خواهد بود: </p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71c91118c302753605" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; type(message)
+&lt;class 'str'&gt;
+&gt;&gt;&gt; type(n)
+&lt;class 'int'&gt;
+&gt;&gt;&gt; type(pi)
+&lt;class 'float'&gt;</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71c91118c302753605-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c91118c302753605-2">2</div><div class="crayon-num" data-line="crayon-5bbc71c91118c302753605-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c91118c302753605-4">4</div><div class="crayon-num" data-line="crayon-5bbc71c91118c302753605-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c91118c302753605-6">6</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71c91118c302753605-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">type</span><span class="crayon-sy">(</span><span class="crayon-v">message</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c91118c302753605-2"><span class="crayon-o">&lt;</span><span class="crayon-t">class</span><span class="crayon-h"> </span><span class="crayon-s">'str'</span><span class="crayon-o">&gt;</span></div><div class="crayon-line" id="crayon-5bbc71c91118c302753605-3"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">type</span><span class="crayon-sy">(</span><span class="crayon-v">n</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c91118c302753605-4"><span class="crayon-o">&lt;</span><span class="crayon-t">class</span><span class="crayon-h"> </span><span class="crayon-s">'int'</span><span class="crayon-o">&gt;</span></div><div class="crayon-line" id="crayon-5bbc71c91118c302753605-5"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-k ">type</span><span class="crayon-sy">(</span><span class="crayon-v">pi</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c91118c302753605-6"><span class="crayon-o">&lt;</span><span class="crayon-t">class</span><span class="crayon-h"> </span><span class="crayon-s">'float'</span><span class="crayon-o">&gt;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0009 seconds] -->
+<p> </p>
+<h2>انتخاب نام برای متغیرها و کلمات کلیدی</h2>
+<p>معمولاً برنامه‌نویس‌ها اسامی معنادار برای متغیر خود انتخاب می‌کنند و سپس اطلاعات مربوط به آن متغیر را داخل سند مکتوب می‌نمایند. چرا اسامی معنادار؟ به این خاطر که بهتر است هر متغیر نشانی از مقداری که در خود دارد را داشته باشد. مثلا شما برای ذخیره‌ی دمای اتاق که از طریق سنسور دریافت کرده‌اید، بهتر است نامی مرتبط، و با معنی را – مثل temp  – انتخاب کنید تا هر جای دیگری از برنامه که خواستید از مقدار دما استفاده کنید، بین اسامی بی‌معنیِ متغیرها گیج و سر در گم نشوید.<br />
+طول نام یک متغیر می‌تواند خیلی بلند، و شامل اعداد و حروف باشد ولی نمی‌تواند که با یک عدد شروع شود. به عنوان مثال 6temp یک نام غیرمجاز برای متغیر است. نام یک متغیر می‌تواند با حرف بزرگ شروع شود، ولی بهتر است که از حرف کوچک به عنوان اولین حرف در نام یک متغیر استفاده شود (دلیلش را در آینده برای‌تان خواهیم گفت).<br />
+استفاده از کاراکتر آندراِسکور یا آندرلاین (_) نیز مجاز است و در اسامی با ترکیب چند کلمه مثل my_name یا airspeed_of_unladen_swallow استفاده می‌شود. اسامی متغیرها می‌تواند با کاراکتر آندراِسکور شروع شود، ولی بهتر است که از این کار &#8211; به غیر از موارد خاص نوشتن کد کتابخانه &#8211; اجتناب شود.<br />
+اگر شما برای یک متغیر، نام غیرمجازی استفاده کنید، یک خطای متن یا syntax error دریافت خواهید کرد:</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71c911190579779972" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">Python</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+&gt;&gt;&gt; 76trombones = 'big parade'
+  File "&lt;stdin&gt;", line 1
+    76trombones = 'big parade'
+              ^
+SyntaxError: invalid syntax
+&gt;&gt;&gt; more@ = 1000000
+  File "&lt;stdin&gt;", line 1
+    more@ = 1000000
+          ^
+SyntaxError: invalid syntax
+&gt;&gt;&gt; class = 'Advanced Theoretical Zymurgy'
+  File "&lt;stdin&gt;", line 1
+    class = 'Advanced Theoretical Zymurgy'
+          ^
+SyntaxError: invalid syntax
+&gt;&gt;&gt; </textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71c911190579779972-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911190579779972-2">2</div><div class="crayon-num" data-line="crayon-5bbc71c911190579779972-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911190579779972-4">4</div><div class="crayon-num" data-line="crayon-5bbc71c911190579779972-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911190579779972-6">6</div><div class="crayon-num" data-line="crayon-5bbc71c911190579779972-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911190579779972-8">8</div><div class="crayon-num" data-line="crayon-5bbc71c911190579779972-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911190579779972-10">10</div><div class="crayon-num" data-line="crayon-5bbc71c911190579779972-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911190579779972-12">12</div><div class="crayon-num" data-line="crayon-5bbc71c911190579779972-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911190579779972-14">14</div><div class="crayon-num" data-line="crayon-5bbc71c911190579779972-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911190579779972-16">16</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71c911190579779972-1"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-cn">76trombones</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'big parade'</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911190579779972-2"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-k ">File</span><span class="crayon-h"> </span><span class="crayon-s">"&lt;stdin&gt;"</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-i">line</span><span class="crayon-h"> </span><span class="crayon-cn">1</span></div><div class="crayon-line" id="crayon-5bbc71c911190579779972-3"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-cn">76trombones</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'big parade'</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911190579779972-4"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-o">^</span></div><div class="crayon-line" id="crayon-5bbc71c911190579779972-5"><span class="crayon-k ">SyntaxError</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-e">invalid </span><span class="crayon-v">syntax</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911190579779972-6"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-v">more</span><span class="crayon-sy">@</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-cn">1000000</span></div><div class="crayon-line" id="crayon-5bbc71c911190579779972-7"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-k ">File</span><span class="crayon-h"> </span><span class="crayon-s">"&lt;stdin&gt;"</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-i">line</span><span class="crayon-h"> </span><span class="crayon-cn">1</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911190579779972-8"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-v">more</span><span class="crayon-sy">@</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-cn">1000000</span></div><div class="crayon-line" id="crayon-5bbc71c911190579779972-9"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-o">^</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911190579779972-10"><span class="crayon-k ">SyntaxError</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-e">invalid </span><span class="crayon-v">syntax</span></div><div class="crayon-line" id="crayon-5bbc71c911190579779972-11"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span><span class="crayon-t">class</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'Advanced Theoretical Zymurgy'</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911190579779972-12"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-k ">File</span><span class="crayon-h"> </span><span class="crayon-s">"&lt;stdin&gt;"</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-i">line</span><span class="crayon-h"> </span><span class="crayon-cn">1</span></div><div class="crayon-line" id="crayon-5bbc71c911190579779972-13"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-t">class</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'Advanced Theoretical Zymurgy'</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911190579779972-14"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-o">^</span></div><div class="crayon-line" id="crayon-5bbc71c911190579779972-15"><span class="crayon-k ">SyntaxError</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-e">invalid </span><span class="crayon-v">syntax</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911190579779972-16"><span class="crayon-o">&gt;&gt;&gt;</span><span class="crayon-h"> </span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0033 seconds] -->
+<p> </p>
+<p>نام 76trombones غیرمجاز است چرا که با عدد شروع شده؛ more@‎ غیرمجاز است چون شامل کاراکتر غیرمجاز @ می‌شود. ولی مشکل class چیست؟<br />
+نام class به این دلیل که یکی از کلمات کلیدی و رزرو شده‌ی پایتون است، نمی‌تواند به عنوان نام متغیر انتخاب شود. مفسر از این کلمات کلیدی (Keyword) برای شناسایی ساختار یک برنامه استفاده می‌کند و زمانی که می‌خواهید از آن‌ها به عنوان نام متغیر استفاده کنید، برنامه برای جلوگیری از گیج شدن، آن را غیرمجاز اعلام می‌کند. پایتون ۳۳ کلمه‌ی رزرو شده دارد: </p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5bbc71c911194182396561" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="تغییر وضعیت شماره خطوط"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="نمایش ساده/هایلایت کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="تغییر وضعیت اسکرول افقی"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="گسترش کد"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="کپی کردن"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="نمایش در یک پنجره جدید"><div class="crayon-button-icon"></div></div><span class="crayon-language">LESS</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+and       del       from      None      True
+as        elif      global    nonlocal  try
+assert    else      if        not       while
+break     except    import    or        with
+class     False     in        pass      yield
+continue  finally   is        raise
+def       for       lambda    return</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5bbc71c911194182396561-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911194182396561-2">2</div><div class="crayon-num" data-line="crayon-5bbc71c911194182396561-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911194182396561-4">4</div><div class="crayon-num" data-line="crayon-5bbc71c911194182396561-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5bbc71c911194182396561-6">6</div><div class="crayon-num" data-line="crayon-5bbc71c911194182396561-7">7</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5bbc71c911194182396561-1"><span class="crayon-i ">and</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-i ">del</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-i ">from</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">None</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">True</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911194182396561-2"><span class="crayon-i ">as</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">elif</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">global</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">nonlocal</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-i ">try</span></div><div class="crayon-line" id="crayon-5bbc71c911194182396561-3"><span class="crayon-i ">assert</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">else</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">if</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">not</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-i ">while</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911194182396561-4"><span class="crayon-i ">break</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-i ">except</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">import</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">or</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">with</span></div><div class="crayon-line" id="crayon-5bbc71c911194182396561-5"><span class="crayon-i ">class</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-i ">False</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-i ">in</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">pass</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">yield</span></div><div class="crayon-line crayon-striped-line" id="crayon-5bbc71c911194182396561-6"><span class="crayon-i ">continue</span><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-i ">finally</span><span class="crayon-h">&nbsp;&nbsp; </span><span class="crayon-i ">is</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">raise</span></div><div class="crayon-line" id="crayon-5bbc71c911194182396561-7"><span class="crayon-i ">def</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-i ">for</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="crayon-i ">lambda</span><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-i ">return</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0012 seconds] -->
+<p> </p>
+<p>شاید بد نباشد که این لیست را کنار دست خود داشته باشید و اگر دیدید که مفسر در خصوص نام متغیر ایراد می‌گیرد، نگاهی به لیست بیندازید و مطمئن شوید که آن اسم در بین کلمات رزرو شده نیست.</p>
+<p>این نوشته تحت مجوز کرییتیو کامنز BY – NC و حمایت موسسه تحقیقاتی رامونا ارائه می‌شود. شما می‌توانید با توجه به مفاد این گواهی از آن استفاده کنید.</p>
+
+<div class="entry-tags clearfix"><i class="fa fa-tag"></i><ul><li><a href="tag/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86/" rel="tag">پایتون</a></li><li><a href="tag/%d9%be%d8%a7%db%8c%d8%aa%d9%88%d9%86-3/" rel="tag">پایتون 3</a></li><li><a href="tag/%d9%85%d8%aa%d8%ba%db%8c%d8%b1%d9%87%d8%a7/" rel="tag">متغیرها</a></li></ul></div>
+</article>
+
+
+	</div>
+	<aside class="mh-widget-col-1 mh-sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar"><div id="custom_html-2" class="widget_text mh-widget widget_custom_html"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">جستجو</span></h4><div class="textwidget custom-html-widget"><div>
+<script>
+  (function() {
+    var cx = '009818856558909273057:chtsb9hvvvy';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div></div></div></aside></div>
+<div class="mh-copyright-wrap">
+	<div class="mh-container mh-container-inner clearfix">
+		<p class="mh-copyright">کپی‌رایت ۱۳۹۴-۱۳۹۷ | تمام حقوق برای ایمان امینی صاحب امتیاز ایلولا محفوظ است.</p>
+	</div>
+</div>
+</div><!-- .mh-container-outer -->
+
+<div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org">TurnKey Linux</a> </div> </div></body>
+</html>
