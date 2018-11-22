@@ -1,5 +1,0 @@
-@import url(/fontiran.css); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
-body#tinymce.wp-editor { 
-font-family: IRANSanz;
-font-weight: 300;
-}
